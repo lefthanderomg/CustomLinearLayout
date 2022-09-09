@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomLinearLayout">
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="radius" format="dimension"/>
+        <attr name="borderColor" format="color" />
+        <attr name="borderSize" format="dimension" />
+    </declare-styleable>
+</resources>

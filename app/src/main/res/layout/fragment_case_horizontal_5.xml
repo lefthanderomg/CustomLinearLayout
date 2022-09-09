@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<andrey.murzin.com.customlinearlayout.view.custom.CustomLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <andrey.murzin.com.customlinearlayout.view.custom.CustomLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:borderColor="@color/blue"
+        app:borderSize="5dp"
+        app:orientation="horizontal"
+        app:radius="10dp"
+        tools:context=".MainActivity">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/purple_200" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/red" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/android" />
+
+
+    </andrey.murzin.com.customlinearlayout.view.custom.CustomLinearLayout>
+
+    <andrey.murzin.com.customlinearlayout.view.custom.CustomLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:borderColor="@color/blue"
+        app:borderSize="10dp"
+        app:orientation="horizontal"
+        app:radius="100dp"
+        tools:context=".MainActivity">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/purple_200" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/red" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/android" />
+
+    </andrey.murzin.com.customlinearlayout.view.custom.CustomLinearLayout>
+
+</andrey.murzin.com.customlinearlayout.view.custom.CustomLinearLayout>

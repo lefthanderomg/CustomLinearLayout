@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<andrey.murzin.com.customlinearlayout.view.custom.CustomLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="24dp"
+    app:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/case1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Case 1" />
+
+    <Button
+        android:id="@+id/case2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Case 2" />
+
+    <Button
+        android:id="@+id/case3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Case 3" />
+
+    <Button
+        android:id="@+id/case4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Case 4" />
+
+    <Button
+        android:id="@+id/case5_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Case 5" />
+
+</andrey.murzin.com.customlinearlayout.view.custom.CustomLinearLayout>
